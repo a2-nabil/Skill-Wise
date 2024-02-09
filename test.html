@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="elementor-element-199121f">
+      <div class="div">
+        <div class="div">
+          <i class="fab fa-icon1"></i>
+        </div>
+      </div>
+      <div class="div">
+        <div class="div">
+          <i class="fab fa-icon1"></i>
+        </div>
+      </div>
+      <div class="div">
+        <div class="div">
+          <i class="fab fa-icon1"></i>
+        </div>
+      </div>
+      <div class="div">
+        <i class="fab fa-icon2"></i>
+      </div>
+
+      <!-- Other elements with class .fas -->
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const footerElement = document.querySelector(
+          ".elementor-element-199121f"
+        );
+
+        if (footerElement) {
+          const fabElements = footerElement.querySelectorAll(".fab");
+          fabElements.forEach(function (element) {
+            element.classList.replace("fab", "fa");
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

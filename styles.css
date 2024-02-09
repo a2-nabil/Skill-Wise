@@ -1,0 +1,138 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* #home course card start  */
+.a2n_course-card {
+  width: 100%;
+  max-width: 355px;
+  position: relative;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1019607843);
+  border-radius: 0 0 20px 20px;
+}
+.a2n_course-card .a2n_course-start {
+  position: relative;
+  overflow: hidden;
+}
+.a2n_course-card .a2n_course-start img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.a2n_course-card .a2n_course-start .course_cat {
+  position: absolute;
+  top: 21px;
+  left: 41px;
+}
+.a2n_course-card .a2n_course-start .course_cat a {
+  padding: 3px 20px;
+  background-color: #1da678;
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: "Noto Sans HK", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  display: inline-block;
+}
+.a2n_course-card .course_price-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ef5743;
+  border-radius: 60px;
+  box-shadow: 0px 10px 20px 0px rgba(239, 87, 67, 0.4);
+  margin: -30px 40px 0 auto;
+  position: relative;
+}
+.a2n_course-card .course_price-box .price {
+  color: #ffffff !important;
+  font-family: "Noto Sans HK", Sans-serif !important;
+  font-size: 16px !important;
+}
+.a2n_course-card .course_price-box .price span {
+  color: #ffffff !important;
+  font-family: "Noto Sans HK", Sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700;
+  line-height: 28px;
+}
+.a2n_course-card .course_price-box del,
+.a2n_course-card .course_price-box .woocommerce-price-suffix {
+  display: none !important;
+}
+.a2n_course-card .course_contents {
+  margin-top: -10px;
+  padding: 0px 25px 30px;
+}
+.a2n_course-card .course_contents .course_user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.a2n_course-card .course_contents .course_user img {
+  max-width: 42px !important;
+  border-radius: 50% !important;
+}
+.a2n_course-card .course_contents .course_user h3 {
+  margin: 0;
+  color: #1da678;
+  font-family: "Noto Sans HK", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.a2n_course-card .course_contents .course_title {
+  margin: 20px 0;
+}
+.a2n_course-card .course_contents .course_title h2 {
+  margin: 0;
+}
+.a2n_course-card .course_contents .course_title h2 a {
+  color: #000000;
+  font-family: "Noto Sans HK", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  overflow: hidden;
+  height: 56px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.a2n_course-card .course_contents .course_details {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  flex-wrap: wrap;
+}
+.a2n_course-card .course_contents .course_details li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.a2n_course-card .course_contents .course_details li i {
+  color: #ef5743;
+  font-size: 18px;
+}
+.a2n_course-card .course_contents .course_details li span {
+  font-family: "Noto Sans HK", Sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #7e7e7e;
+}
+
+/* #home course card end  *//*# sourceMappingURL=styles.css.map */
